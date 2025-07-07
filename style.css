@@ -1,44 +1,50 @@
 
 body {
-  margin: 0;
-  font-family: 'Cairo', sans-serif;
-  background-color: #121212;
+  font-family: 'Arial', sans-serif;
+  background: #0e0e0e;
   color: white;
-  line-height: 1.8;
-}
-a { color: #ffcc00; text-decoration: none; }
-a:hover { color: #ffffff; }
-
-.hero {
-  background: linear-gradient(to bottom right, #3b0a83, #3f3fbe);
-  padding: 100px 20px;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
-.hero h1 {
-  font-size: 40px;
-  color: white;
+.hero {
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #2a2a72, #009ffd);
 }
-.hero p {
-  font-size: 20px;
-  margin: 10px 0 30px;
+h1, h2 {
+  color: #ffe600;
+}
+p {
+  font-size: 18px;
+  line-height: 1.8;
 }
 .btn {
-  padding: 10px 20px;
-  background-color: #ffcc00;
-  color: #121212;
-  border-radius: 8px;
-  font-weight: bold;
   display: inline-block;
-  margin: 5px;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  background: #ff9800;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
-.story-content {
-  padding: 30px 20px;
-  max-width: 900px;
-  margin: auto;
-  background-color: #1a1a1a;
-  border-radius: 10px;
+.nav-link {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
 }
-.story-content h2 {
-  color: #ffcc00;
-  margin-top: 0;
+.coming {
+  background: #1c1c1c;
+  padding: 30px 10px;
+}
+.stories-list {
+  list-style: none;
+  padding: 0;
+}
+.stories-list li {
+  margin: 15px 0;
+}
+.stories-list a {
+  color: #00eaff;
+  text-decoration: none;
+  font-size: 20px;
 }
